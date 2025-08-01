@@ -1,0 +1,259 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*common css start*/
+	.sec_padding {
+	    padding: 60px 0;
+	}
+	.title {
+		padding: 5px 0;
+	    font-size: 45px;
+	}
+	/*common css end*/
+	.header_section {
+	    height: 980px;
+	}
+		.header_section {
+	    padding-top: 60px;
+	}
+	#header_scroll_fixed {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	    background: var(--white);
+	    box-shadow: 0px 0px 13px 0px #464646ab !important;
+	}
+	#header_menu ul li a {
+	    color: var(--black);
+	}
+	.hc_sub_title {
+	    font-size: 18px;
+	}
+	.hc_title {
+	    margin-bottom: 22px;
+	    font-size: 45px;
+	}
+	.booking_form label {
+	    margin-top: 15px;
+	}
+	.custom-select-selected {
+	    gap: 7px;
+	}
+	.hc_bottom {
+	    padding: 10px 20px 30px;
+	}
+	/*header css end*/
+	/*about css start*/
+	.abl_img_1{
+		width: 100%;
+		max-height: 100%;
+	}
+	.abl_img_2{
+		margin-top: 50px;
+		position: relative !important;
+		width: 100%;
+		max-height: 100% !important;
+		left: 0 !important;
+	}
+	/*about css end*/
+	/*service css start*/
+	.services{
+		margin-top: 50px;
+		border-right: 0;
+	}
+	/*service css end*/
+	/*testmonial css start*/
+	.testmonial_slider .owl-nav{
+		display: none;
+	}
+	/*testmonial css end*/
+	/*blog css start*/
+	.blog_body {
+	    padding: 20px 10px;
+	}
+	.post-meta span{
+		font-size: 14px;
+	}
+	/*blog css end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common css start*/
+	.sec_padding {
+	    padding: 80px 0;
+	}
+	.title {
+		padding: 5px 0;
+	    font-size: 45px;
+	}
+	/*common css end*/
+	/*header css start*/
+	.header_section {
+	    height: 700px;
+	}
+	.header_section {
+	    padding-top: 60px;
+	}
+	#header_scroll_fixed {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	    background: var(--white);
+	    box-shadow: 0px 0px 13px 0px #464646ab !important;
+	}
+	#header_menu ul li a {
+	    color: var(--black);
+	}
+	.hc_sub_title {
+	    font-size: 18px;
+	}
+	.hc_title {
+	    margin-bottom: 22px;
+	    font-size: 45px;
+	}
+	.booking_form label {
+	    margin-top: 15px;
+	}
+	.custom-select-selected {
+	    gap: 7px;
+	}
+	.hc_bottom {
+	    padding: 10px 20px 30px;
+	}
+	/*header css end*/
+	/*about css start*/
+	.abl_img_1{
+		width: 100%;
+		max-height: 100%;
+	}
+	.abl_img_2{
+		margin-top: 50px;
+		position: relative !important;
+		width: 100%;
+		max-height: 100% !important;
+		left: 0 !important;
+	}
+	/*about css end*/
+	/*service css start*/
+	.service_top{
+		padding: 0 50px;
+	}
+	.services{
+		margin-top: 50px;
+		border-right: 0;
+	}
+	.service_item{
+		padding: 0 70px;
+	}
+	/*service css end*/
+	/*testmonial css start*/
+	.customer_review {
+	    padding: 50px 20px 20px;
+	}
+	/*testmonial css end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*common css start*/
+	.sec_padding {
+	    padding: 80px 0;
+	}
+	.title {
+		padding: 5px 0;
+	    font-size: 45px;
+	}
+	/*common css end*/
+	/*header css start*/
+		.header_section {
+	    padding-top: 70px;
+	}
+	#header_scroll_fixed {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	    background: var(--white);
+	}
+	#header_menu ul li a {
+	    color: var(--black);
+	}
+	.hc_sub_title {
+	    font-size: 20px;
+	}
+	.hc_title {
+	    margin-bottom: 15px;
+	    font-size: 55px;
+	}
+	/*header css end*/
+	/*about css start*/
+	.abl_img_1{
+		margin-left: 80px;
+		width: 400px;
+	}
+	.abl_img_2{
+		left: calc(0% + 350px);
+	}
+	/*about css end*/
+	/*service css start*/
+	.services:nth-child(even){
+		border-right: 0;
+	}
+	/*service css end*/
+	/*testmonial css start*/
+	.customer_review{
+		min-height: 370px;
+	}
+	/*testmonial css end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*about css start*/
+	.abl_img_1 {
+	    width: 320px;
+	}
+	.abl_img_2 {
+	    left: calc(0% + 120px);
+	}
+	/*about css end*/
+	/*service css start*/
+	.services:nth-child(even){
+		border-right: 0;
+	}
+	/*service css end*/
+	/*testmonial css start*/
+	.customer_review{
+		min-height: 400px;
+	}
+	/*testmonial css end*/
+	/*blog css start*/
+	.blog_body {
+	    padding: 20px 20px;
+	}
+	.post-meta span{
+		font-size: 13px;
+	}
+	/*blog css end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*about css start*/
+	.abl_img_1{
+		width: 350px;
+	}
+	.abl_img_2{
+		left: calc(0% + 180px);
+	}
+	/*about css end*/
+	/*testmonial css start*/
+	.customer_review{
+		min-height: 350px;
+	}
+	/*testmonial css end*/
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

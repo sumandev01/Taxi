@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Taxi</title>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<!-- owl-carousel -->
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+	<!-- font awesome icon -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<!-- Bootstrap icon -->
+	<link rel="stylesheet" href="css/bootstrap-icons.min.css">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- media query css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- Header Section start -->
+	<section id="header_section" class="video-background header_section">
+		<!-- Header start -->
+		<header>
+			<!-- header top start -->		
+			<div class="bg1 header_top d-lg-block d-none">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-5">
+							<div class="ht_left h_top d-flex">
+								<div class="ht_email">
+									<i class="fa-regular fa-envelope"></i>
+									<a href="mailto:sumondav444@gmail.com">example@gmail.com</a>
+								</div>
+								<div class="ht_location">
+									<i class="fa-solid fa-location-dot"></i>
+								<a href="https://maps.app.goo.gl/wMqiBQG8CQxzD5177" target="_blank">Taxi, 18 Grattan St, Brooklyn</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-7">
+							<div class="ht_right text-end">
+								<i class="fas fa-user"></i>
+								<a href="#">Login</a>
+								<span>/</span>
+								<a href="#">Register</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header top end -->
+			<!-- header bottom start -->
+			<nav class="navbar navbar-expand-lg header_bottom" id="header_scroll_fixed">
+				<div class="container">
+					<!-- header logo -->
+					<div class="header_logo">
+						<a class="navbar-brand mx-auto" href="#">
+							<img src="images/logo.png" class="w-100" alt="Taxi">
+						</a>
+					</div>
+					<!-- toggler menu button -->
+					<button class="navbar-toggler header_menu_toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header_menu" aria-controls="header_menu" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- header menu -->
+					<div class="navbar-collapse collapse w-100" id="header_menu">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active"><a class="nav-link link_hover" href="#">home</a></li>
+							<li class="nav-item"><a class="nav-link link_hover" href="#about">about us</a></li>
+							<li class="nav-item"><a class="nav-link link_hover" href="#services">services</a></li>
+							<li class="nav-item"><a class="nav-link link_hover" href="#packages">package</a></li>
+							<li class="nav-item"><a class="nav-link link_hover" href="#blogs">blog</a></li>
+							<li class="nav-item"><a class="nav-link link_hover" href="#contact">contact</a></li>
+						</ul>
+						<button class="btn custom_btn1"><span>Book A Taxi</span></button>
+					</div>					
+				</div>
+			</nav>
+			<!-- header bottom end -->
+		</header>
+		<!-- Header end -->
+		<!-- Background Video start -->
+	  <video autoplay muted loop id="myVideo">
+	    <source src="videos/1.mp4" type="video/mp4" />
+	  </video>
+	  <!-- Background Video end -->
+	  <!-- Booking form start -->
+	  <div class="container header_container">
+	  	<div class="row">
+	  		<div class="col-lg-10 mx-auto">
+	  			<div class="hc_top">
+			  		<h4 class="hc_sub_title sub_title text-center">Enjoy Comfortable Trip</h4>
+			  		<h1 class="hc_title title text-center">book your ride now</h1>
+			  	</div>
+			  	<div class="hc_bottom">
+			  		<form action="" method="" id="booking_form" class="booking_form">
+			  			<div class="row">
+			  				<div class="col-lg-4 col-sm-6">
+			  					<label for="pick" class="form-label">pick up location</label>
+			  					<div class="position-relative">
+									  <input type="text" id="" class="form-control" placeholder="pick up location">
+									  <i class="fa-solid fa-location-dot input-icon"></i>
+									</div>
+			  				</div>
+			  				<div class="col-lg-4 col-sm-6">
+			  					<label for="drop" class="form-label">drop off location</label>
+			  					<div class="position-relative">
+									  <input type="text" id="" class="form-control" placeholder="drop off location">
+									  <i class="fa-solid fa-location-dot input-icon"></i>
+									</div>
+			  				</div>
+			  				<div class="col-lg-4 col-sm-6">
+			  					<label for="passengers" class="form-label">passengers</label>
+			  					<div class="position-relative">
+									  <input type="text" id="" class="form-control" placeholder="passengers">
+									  <i class="fa-solid fa-user input-icon"></i>
+									</div>
+			  				</div>
+			  				<div class="col-lg-4 col-sm-6">
+								  <label for="taxi_type" class="form-label">Taxi type</label>
+								  <div class="custom-select-wrapper position-relative">
+								    <div class="custom-select-selected">
+								      <i class="fa-solid fa-car"></i> Select Taxi Type
+								      <span class="arrow">&#9662;</span>
+								    </div>
+								    <div class="custom-select-options">
+								      <div data-value="1"><i class="fa-solid fa-car"></i> Sedan</div>
+								      <div data-value="2"><i class="fa-solid fa-car-side"></i> SUV</div>
+								      <div data-value="3"><i class="fa-solid fa-shuttle-van"></i> Minivan</div>
+								    </div>
+								  </div>
+								  <input type="hidden" id="taxi_type" name="taxi_type" />
+								</div>
+			  				<div class="col-lg-4 col-sm-6">
+			  					<label for="pick_date" class="form-label">pick up date & time</label>
+			  					<input type="datetime-local" class="form-control" id="pick_date">
+			  				</div>
+			  				<div class="col-lg-4 col-sm-6">
+								  <label for="driver" class="form-label">Select Driver</label>
+								  <div class="custom-select-wrapper position-relative">
+								    <div class="custom-select-selected">
+								      <i class="fa-solid fa-user"></i> Select Driver
+								      <span class="arrow">&#9662;</span>
+								    </div>
+								    <div class="custom-select-options">
+								      <div data-value="1"><i class="fa-solid fa-user"></i> Sophia Brown</div>
+								      <div data-value="2"><i class="fa-solid fa-user"></i> Michael Smith</div>
+								      <div data-value="3"><i class="fa-solid fa-user"></i> Emily Davis</div>
+								      <div data-value="3"><i class="fa-solid fa-user"></i> John Doe</div>
+								      <div data-value="3"><i class="fa-solid fa-user"></i> Sarah Lee</div>
+								      <div data-value="3"><i class="fa-solid fa-user"></i> David Clark</div>
+								    </div>
+								  </div>
+								  <input type="hidden" id="driver" name="driver" />
+								</div>
+			  			</div>
+			  			<div class="row">
+			  				<div class="col-12 text-center">
+			  					<input type="checkbox" id="agree" />
+								  <label for="agree">I agree to terms and conditions</label>
+								  <br />
+								  <button type="submit" class="mt-3 custom_btn1" id="submitBtn" disabled><span>Book A Taxi</span></button>
+			  				</div>
+			  			</div>
+			  		</form>
+			  	</div>
+	  		</div>
+	  	</div>
+	  </div>
+	  <!-- Booking form end -->
+	</section>
+	<!-- Header Section end -->
+	<!-- About Section start -->
+	<section id="about" class="sec_padding about_section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="about_left position-relative">
+						<div class="abl_img_1">
+							<img src="images/1.jpg" class="w-100" alt="">
+						</div>
+						<div class="abl_img_2 position-absolute">
+							<img src="images/2.jpg" class="w-100" alt="">
+							<div class="about_video">
+								<button><i class="fas fa-play"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="about_right pt-lg-0 pt-5">
+						<div class="sec_title">
+							<p class="sub_title">ABOUT OUR COMPANy</p>
+							<h2 class="title">Services with a Wide Range of Cars</h2>
+						</div>
+						<p>Welcome to “Hello-Taxi”. We are a fully licensed and well-experienced Taxi Service Provider in England.</p>
+						<p>No matter if you are an individual or a group of people, large or small, business or family, we are here to facilitate you with efficient, clean, and professional Taxi Services in Fort William (England). We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers. We believe that you will be back again to get the services from us in Fort William (England).</p>
+						<p>We have a highly professional customer support team who are staying beside the clients. No matter where you are, we will reach you to drop you off at your destination. </p>
+						<button class="btn custom_btn2 mt-3"><span>Contact Us</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Section end -->
+	<!-- Services Section start -->
+	<section id="services" class="sec_padding services_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center service_top">
+						<p class="sub_title">Our Services</p>
+						<h2 class="title">Welcome To Us</h2>
+						<p class="">From airport transfers to guided tours — explore the range of services we proudly offer.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-3 col-md-6 services">
+					<div class="service_item">
+						<i class="fas fa-plane-departure"></i>
+						<h2><a href="#">Airport Transfer and Car Hire</a></h2>
+						<p>Punctual, comfortable rides to all major airports across England — with luggage help and travel support.</p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 services">
+					<div class="service_item">
+						<i class="fas fa-map-marked-alt"></i>
+						<h2><a href="#">Guided Tours & Transport</a></h2>
+						<p>Discover local attractions with our experienced guides and clean, well-maintained vehicles.</p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 services">
+					<div class="service_item">
+						<i class="fas fa-hotel"></i>
+						<h2><a href="#">Door-to-Door Hotel Service</a></h2>
+						<p>Enjoy hassle-free pickup and drop-off from your hotel or home — anytime, anywhere in Fort William.</p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 services">
+					<div class="service_item">
+						<i class="fas fa-bed"></i>
+						<h2><a href="#">Bed & Breakfast in Fort William</a></h2>
+						<p>Stay comfortably at our clean and welcoming B&B — perfect for travelers needing rest and refreshment.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services Section end -->
+	<!-- Feature & price Section start -->
+	<section id="packages" class="packages_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<p class="sub_title">Our Packages</p>
+						<h2 class="title">Our Packages</h2>
+						<p>Flexible pricing designed to match your needs — from single trips to monthly hires.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="packages_item">
+						<div class="p_img">
+							<img src="images/feature1.png" class="w-100" alt="">
+						</div>
+						<div class="package_heading position-relative">
+							<h2>Basic</h2>
+							<span>$0.47/Km</span>
+						</div>
+						<div class="packages_content">
+							<ul class="list-inline">
+								<li class="d-flex justify-content-between">
+									<span>Initial Charge:</span>
+									<span>$2.30</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Up to 50 kms:</span>
+									<span>$1.50</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Additional Kilos:</span>
+									<span>$0.80</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>per stop triffic:</span>
+									<span>$0.3</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>passengers seat:</span>
+									<span>04 seat</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>air conditioner:</span>
+									<span>yes</span>
+								</li>
+							</ul>
+							<button class="btn custom_btn1"><span>Book Now</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="packages_item">
+						<div class="p_img">
+							<img src="images/feature2.png" class="w-100" alt="">
+						</div>
+						<div class="package_heading position-relative">
+							<h2>Standard</h2>
+							<span>$0.95/Km</span>
+						</div>
+						<div class="packages_content">
+							<ul class="list-inline">
+								<li class="d-flex justify-content-between">
+									<span>Initial Charge:</span>
+									<span>$3.10</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Up to 50 kms:</span>
+									<span>$2.20</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Additional Kilos:</span>
+									<span>$0.90</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>per stop triffic:</span>
+									<span>$0.5</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>passengers seat:</span>
+									<span>04 seat</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>air conditioner:</span>
+									<span>yes</span>
+								</li>
+							</ul>
+							<button class="btn custom_btn1"><span>Book Now</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="packages_item">
+						<div class="p_img">
+							<img src="images/feature3.png" class="w-100" alt="">
+						</div>
+						<div class="package_heading position-relative">
+							<h2>Luxurious</h2>
+							<span>$1.85/Km</span>
+						</div>
+						<div class="packages_content">
+							<ul class="list-inline">
+								<li class="d-flex justify-content-between">
+									<span>Initial Charge:</span>
+									<span>$5.68</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Up to 50 kms:</span>
+									<span>$2.60</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>Additional Kilos:</span>
+									<span>$1.20</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>per stop triffic:</span>
+									<span>$0.8</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>passengers seat:</span>
+									<span>02 seat</span>
+								</li>
+								<li class="d-flex justify-content-between">
+									<span>air conditioner:</span>
+									<span>yes</span>
+								</li>
+							</ul>
+							<button class="btn custom_btn1"><span>Book Now</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature & price Section end -->
+	<!-- Why choose start -->
+	<section id="why_us" class="why_choose_section sec_padding">
+	  <div class="container">
+	    <div class="text-center sec_title">
+	      <p class="sub_title">Why Choose Us</p>
+	      <h2 class="title">Your Best Taxi Partner</h2>
+	    </div>
+	    <div class="row text-center">
+	      <div class="col-md-3 col-sm-6 choose_item">
+	        <i class="fas fa-user-tie fa-2x mb-2 text-primary"></i>
+	        <h5>Experienced Drivers</h5>
+	        <p>All our drivers are trained, certified & friendly.</p>
+	      </div>
+	      <div class="col-md-3 col-sm-6 choose_item">
+	        <i class="fas fa-dollar-sign fa-2x mb-2 text-primary"></i>
+	        <h5>Affordable Pricing</h5>
+	        <p>Clear pricing — no hidden costs or surprises.</p>
+	      </div>
+	      <div class="col-md-3 col-sm-6 choose_item">
+	        <i class="fas fa-clock fa-2x mb-2 text-primary"></i>
+	        <h5>24/7 Availability</h5>
+	        <p>Day or night — we’re always ready to serve you.</p>
+	      </div>
+	      <div class="col-md-3 col-sm-6 choose_item">
+	        <i class="fas fa-shield-alt fa-2x mb-2 text-primary"></i>
+	        <h5>Clean & Safe</h5>
+	        <p>Regularly sanitized vehicles for your safety.</p>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<!-- Why choose end -->
+	<!-- Driver Section start -->
+	<section id="drivers" class="driver_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="sec_title text-center">
+					<p class="sub_title">Meet Our Drivers</p>
+					<h2 class="title">Expert & Friendly Drivers</h2>
+					<p>All our drivers are certified, experienced and always ready to make your journey comfortable & safe.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 driver_slider owl-carousel owl-theme owl-loaded">
+					<!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (1).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">John Doe</h5>
+	            <p class="card-text">Sedan Specialist</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+	        <!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (2).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">Sarah Lee</h5>
+	            <p class="card-text">SUV Expert</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+	        <!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (3).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">Michael Smith</h5>
+	            <p class="card-text">Minivan Driver</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+	        <!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (4).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">Emily Davis</h5>
+	            <p class="card-text">Airport Transfers</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+	        <!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (5).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">David Clark</h5>
+	            <p class="card-text">Luxury Car Expert</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+	        <!-- driver item start -->
+					<div class="card driver_list text-center">
+	          <div class="driver_img position-relative">
+	          	<img src="images/driver (6).jpg" class="card-img-top w-100" alt="Driver Name">
+	          	<div class="driver_info gap-2 position-absolute">
+	              <a href="#"><i class="fab fa-facebook text-primary"></i></a>
+	              <a href="#"><i class="fab fa-twitter text-primary"></i></a>
+	              <a href="#"><i class="fab fa-instagram text-primary"></i></a>
+	            </div>
+	          </div>
+	          <div class="card-body dl_body">
+	          	<div class="driver_review">
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-fill"></i>
+								<i class="bi bi-star-half"></i>
+								<i class="bi bi-star"></i>
+							</div>
+	            <h5 class="card-title">Sophia Brown</h5>
+	            <p class="card-text">City Tour Driver</p>
+	          </div>
+	        </div>
+	        <!-- driver item end -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Driver Section end -->
+	<!-- Testmonial Section start -->
+	<section id="testmonials" class="testmonial_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center testmonial_top">
+						<p class="sub_title">What Our Clients Say</p>
+						<h2 class="title">Built on Trust & Comfort</h2>
+						<p class="">Discover why so many passengers trust our professional drivers and reliable taxi services, time after time.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="testmonial_slider owl-carousel owl-theme owl-loaded">
+						<!-- item start -->
+						<div class="customer_review text-center position-relative">
+							<div class="cr_img position-absolute">
+								<img src="images/author-1-1.webp" class="w-100" alt="">
+							</div>
+							<div class="cr_heading">
+								<h3>John Smith</h3>
+								<span>Tourist from London</span>
+							</div>
+							<div class="cr_content">
+								<p>“I visited Fort William for the first time and booked Hello-Taxi. The driver was very friendly, the car was clean, and the ride was smooth. Highly recommended for anyone visiting this area!”</p>
+								<div class="cr_star">
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-half"></i>
+									<i class="bi bi-star"></i>
+								</div>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="customer_review text-center position-relative">
+							<div class="cr_img position-absolute">
+								<img src="images/author-1-2.webp" class="w-100" alt="">
+							</div>
+							<div class="cr_heading">
+								<h3>Sarah Johnson</h3>
+								<span>Business Traveler</span>
+							</div>
+							<div class="cr_content">
+								<p>“I often travel here for work, and Hello-Taxi has always been reliable. Their drivers know the best routes, and I always reach meetings on time. Great service every single time.”</p>
+								<div class="cr_star">
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-half"></i>
+									<i class="bi bi-star"></i>
+								</div>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="customer_review text-center position-relative">
+							<div class="cr_img position-absolute">
+								<img src="images/author-1-3.webp" class="w-100" alt="">
+							</div>
+							<div class="cr_heading">
+								<h3>Ahmed Rahman</h3>
+								<span>Local Resident</span>
+							</div>
+							<div class="cr_content">
+								<p>“Whenever I need to go to the airport or just around town, I use Hello-Taxi. The booking process is easy, and the drivers are polite and punctual.”</p>
+								<div class="cr_star">
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-half"></i>
+								</div>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="customer_review text-center position-relative">
+							<div class="cr_img position-absolute">
+								<img src="images/author-1-2.webp" class="w-100" alt="">
+							</div>
+							<div class="cr_heading">
+								<h3>Emily Brown</h3>
+								<span>Family Traveler</span>
+							</div>
+							<div class="cr_content">
+								<p>“We traveled with kids and luggage, and Hello-Taxi made it stress-free. The driver helped with our bags and drove safely. My family felt comfortable throughout the journey.”</p>
+								<div class="cr_star">
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-fill"></i>
+									<i class="bi bi-star-half"></i>
+									<i class="bi bi-star"></i>
+								</div>
+							</div>
+						</div>
+						<!-- item end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Testmonial Section end -->
+	<!-- App Section start -->
+	<section id="apps" class="app_section sec_padding">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="sec_title">
+						<p class="sub_title">DOWNLOAD OUR APP</p>
+						<h2 class="title">Book Your Taxi Anytime, Anywhere</h2>
+						<p>Get our mobile app and enjoy a faster, smoother booking experience. Track your taxi, manage bookings, and travel with ease – right from your phone.</p>
+					</div>
+					<div class="download_link">
+						<a href="#" target="_blank">
+							<div class="appstore d-flex align-items-center">
+									<i class="fa-brands fa-apple"></i>
+								<div class="dl_text">
+									<h5>download app</h5>
+									<span>from the appstore</span>
+								</div>
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="appstore d-flex align-items-center">
+									<i class="fa-brands fa-android"></i>
+								<div class="dl_text">
+									<h5>download app</h5>
+									<span>from the playstore</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="app_img">
+						<img src="images/app.png" class="w-100" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- App Section end -->
+	<!-- Blog Section start -->
+	<section id="blogs" class="blog_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="sec_title text-center">
+					<p class="sub_title">OUR BLOG</p>
+					<h2 class="title">Latest News & Updates</h2>
+					<p>Tips, stories, and updates from our taxi service and beyond.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="blogs owl-carousel owl-theme owl-loaded">
+						<!-- item start -->
+						<div class="blog_item">
+							<div class="blog_header position-relative">
+								<img src="images/blog (1).jpg" class="w-100" alt="">
+								<div class="post-meta-date position-absolute start-0 bottom-0 text-center">
+								  <span>25</span>
+								  <span>september</span>
+								</div>
+							</div>
+							<div class="blog_body">
+								<div class="post-meta">
+								  <span class="author"><i class="fa fa-user"></i> Admin</span>
+								  <span class="comments"><i class="fa fa-comments"></i> 5 Comments</span>
+								  <span class="likes"><i class="fa fa-heart"></i> 12 Likes</span>
+								</div>
+								<h3><a class="link_hover" href="#">Exploring Fort William by Taxi</a></h3>
+								<p>Discover how a local taxi makes exploring Fort William easier, covering hidden gems, scenic routes and must-visit places comfortably, affordably and right on time.</p>
+								<a class="btn blog_btn custom_btn2" href="#">Read More</a>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="blog_item">
+							<div class="blog_header position-relative">
+								<img src="images/blog (2).jpg" class="w-100" alt="">
+								<div class="post-meta-date position-absolute start-0 bottom-0 text-center">
+								  <span>25</span>
+								  <span>september</span>
+								</div>
+							</div>
+							<div class="blog_body">
+								<div class="post-meta">
+								  <span class="author"><i class="fa fa-user"></i> Admin</span>
+								  <span class="comments"><i class="fa fa-comments"></i> 5 Comments</span>
+								  <span class="likes"><i class="fa fa-heart"></i> 12 Likes</span>
+								</div>
+								<h3><a class="link_hover" href="#">Exploring Fort William by Taxi</a></h3>
+								<p>Discover how a local taxi makes exploring Fort William easier, covering hidden gems, scenic routes and must-visit places comfortably, affordably and right on time.</p>
+								<a class="btn blog_btn custom_btn2" href="#">Read More</a>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="blog_item">
+							<div class="blog_header position-relative">
+								<img src="images/blog (3).jpg" class="w-100" alt="">
+								<div class="post-meta-date position-absolute start-0 bottom-0 text-center">
+								  <span>25</span>
+								  <span>september</span>
+								</div>
+							</div>
+							<div class="blog_body">
+								<div class="post-meta">
+								  <span class="author"><i class="fa fa-user"></i> Admin</span>
+								  <span class="comments"><i class="fa fa-comments"></i> 5 Comments</span>
+								  <span class="likes"><i class="fa fa-heart"></i> 12 Likes</span>
+								</div>
+								<h3><a class="link_hover" href="#">Exploring Fort William by Taxi</a></h3>
+								<p>Discover how a local taxi makes exploring Fort William easier, covering hidden gems, scenic routes and must-visit places comfortably, affordably and right on time.</p>
+								<a class="btn blog_btn custom_btn2" href="#">Read More</a>
+							</div>
+						</div>
+						<!-- item end -->
+						<!-- item start -->
+						<div class="blog_item">
+							<div class="blog_header position-relative">
+								<img src="images/blog (2).jpg" class="w-100" alt="">
+								<div class="post-meta-date position-absolute start-0 bottom-0 text-center">
+								  <span>25</span>
+								  <span>september</span>
+								</div>
+							</div>
+							<div class="blog_body">
+								<div class="post-meta">
+								  <span class="author"><i class="fa fa-user"></i> Admin</span>
+								  <span class="comments"><i class="fa fa-comments"></i> 5 Comments</span>
+								  <span class="likes"><i class="fa fa-heart"></i> 12 Likes</span>
+								</div>
+								<h3><a class="link_hover" href="#">Exploring Fort William by Taxi</a></h3>
+								<p>Discover how a local taxi makes exploring Fort William easier, covering hidden gems, scenic routes and must-visit places comfortably, affordably and right on time.</p>
+								<a class="btn blog_btn custom_btn2" href="#">Read More</a>
+							</div>
+						</div>
+						<!-- item end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog Section end -->
+	<!-- Faq Section start -->
+	<section id="faq" class="faq_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="sec_title text-center">
+						<p class="sub_title">FAQ</p>
+						<h2 class="title">Frequently Asked Questions</h2>
+						<p>Quick answers to help you book and ride with confidence.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 mx-auto">
+					<div class="accordion" id="accordionFaq">
+						<!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq_1" aria-expanded="true" aria-controls="faq_1">How do I book a taxi with you?</button>
+					    </h2>
+					    <div id="faq_1" class="accordion-collapse collapse show" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">You can easily book a ride directly on our website, through our mobile app, or by calling our 24/7 customer service.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_2" aria-expanded="false" aria-controls="faq_2">Are your drivers licensed and experienced?</button>
+					    </h2>
+					    <div id="faq_2" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Yes! All our drivers are fully licensed, trained, and background-checked to ensure maximum safety and comfort.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_3" aria-expanded="false" aria-controls="faq_3">Do you provide airport pick-up & drop-off services?</button>
+					    </h2>
+					    <div id="faq_3" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Absolutely! We offer 24/7 airport transfers. Just mention your flight details, and we’ll track your flight to be on time.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_4" aria-expanded="false" aria-controls="faq_4">How can I pay for my ride?</button>
+					    </h2>
+					    <div id="faq_4" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Multiple options: cash, debit/credit card, online/mobile payment (bKash, Nagad, Rocket).</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_5" aria-expanded="false" aria-controls="faq_5">What if I need to cancel or reschedule my booking?</button>
+					    </h2>
+					    <div id="faq_5" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">No problem! You can cancel or reschedule free of charge up to X hours before the trip.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_6" aria-expanded="false" aria-controls="faq_6">Are your taxis clean and sanitized?</button>
+					    </h2>
+					    <div id="faq_6" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Yes! All our vehicles are cleaned daily and sanitized after every ride to ensure your health & safety.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_7" aria-expanded="false" aria-controls="faq_7">Do you have child seats or special requests?</button>
+					    </h2>
+					    <div id="faq_7" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Yes, on request. Please let us know during booking, and we’ll arrange child seats or other needs.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_8" aria-expanded="false" aria-controls="faq_8">Can I choose my driver or taxi type?</button>
+					    </h2>
+					    <div id="faq_8" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Definitely! During booking, you can select your preferred driver (if available) and choose from Sedan, SUV, Minivan or Luxury cars.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_9" aria-expanded="false" aria-controls="faq_9">What makes you different from other taxi companies?</button>
+					    </h2>
+					    <div id="faq_9" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Fast response, professional & friendly drivers, 24/7 support, and fair transparent pricing — no hidden fees!</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					  <!-- item start -->
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_10" aria-expanded="false" aria-controls="faq_10">Is your service available outside the city?</button>
+					    </h2>
+					    <div id="faq_10" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+					      <div class="accordion-body">Yes, we offer inter-city and long-distance rides too. Just let us know your destination and we’ll confirm availability.</div>
+					    </div>
+					  </div>
+					  <!-- item end -->
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- Faq Section end -->
+	<!-- Contact Form Section start -->
+	<section id="contact" class="contact_section sec_padding">
+	  <div class="container">
+	    <div class="text-center mb-4">
+	      <p class="sub_title">Contact Us</p>
+	      <h2 class="title">Get In Touch</h2>
+	      <p>Have a question or need a ride? Contact us anytime — our team is ready to assist you.</p>
+	    </div>
+	    <div class="row contact_bottom g-4">
+	      <div class="col-lg-6">
+	        <form>
+	          <div class="mb-3">
+	            <input type="text" class="form-control" placeholder="Your Name">
+	          </div>
+	          <div class="mb-3">
+	            <input type="email" class="form-control" placeholder="Your Email">
+	          </div>
+	          <div class="mb-3">
+	            <input type="text" class="form-control" placeholder="Subject">
+	          </div>
+	          <div class="mb-3">
+	            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+	          </div>
+	          <button type="submit" class="btn custom_btn1"><span>Send Message</span></button>
+	        </form>
+	      </div>
+	      <div class="col-lg-6">
+	      	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.49930605068!2d90.25487553147933!3d23.78106723687385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1753983273260!5m2!1sen!2sbd" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<!-- Contact Form Section end -->
+	<!-- footer top section start -->
+	<section id="footer" class="footer_section sec_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="footer_logo">
+						<div class="f_logo_img">
+							<img src="images/logo.png" class="w-100" alt="">
+						</div>
+						<p class="footer_about_text">Reliable, professional & friendly taxi services — making every journey safe and comfortable.</p>
+						<div class="app_qrcode d-flex align-items-center">
+							<div class="qr_code">
+								<img src="images/qr-code.png" class="w-100" alt="">
+							</div>
+							<div class="app_download">
+								<a href="#" target="_blank">
+									<div class="appstore d-flex align-items-center">
+											<i class="fa-brands fa-apple"></i>
+										<div class="dl_text">
+											<h5>download app</h5>
+											<span>from the appstore</span>
+										</div>
+									</div>
+								</a>
+								<a href="#" target="_blank">
+									<div class="appstore d-flex align-items-center">
+											<i class="fa-brands fa-android"></i>
+										<div class="dl_text">
+											<h5>download app</h5>
+											<span>from the playstore</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="quick_link">
+						<h3 class="footer_title">Quick link</h3>
+						<ul class="navbar-nav">
+							<li class=""><a class="link_hover" href="#">About Us</a></li>
+							<li class=""><a class="link_hover" href="#">Our Services</a></li>
+							<li class=""><a class="link_hover" href="#">Our Blogs</a></li>
+							<li class=""><a class="link_hover" href="#">FAQ’S</a></li>
+							<li class=""><a class="link_hover" href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="official_link">
+						<h3 class="footer_title">Official Link</h3>
+						<ul class="navbar-nav f_contact_info">
+							<li class="">
+								<i class="fas fa-phone"></i>
+								<a class="link_hover" href="tel:+880 1700-000000">+880 1700-000000</a>
+							</li>
+							<li class="">
+								<i class="fa-regular fa-envelope"></i>
+								<a class="link_hover" href="mailto:example@gmail.com">example@gmail.com</a>
+							</li>
+							<li class="">
+								<i class="fa-solid fa-location-dot"></i>
+								<span>Taxi, 18 Grattan St, Brooklyn</span>
+							</li>
+						</ul>
+						<div class="footer_social d-flex">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="newsletter">
+						<h3 class="footer_title">newsletter</h3>
+						<p>Subscribe now and never miss an update or special deal from us!</p>
+						<form action="" method="" class="subscribe_form">
+							<div class="position-relative subscribe_input overflow-hidden">
+								<input type="text" class="form-control" placeholder="Your Email Address" required>
+								<i class="bi bi-envelope-at position-absolute"></i>
+							</div>
+							
+							<button type="submit" class="btn custom_btn2">Submit now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer top section end -->
+	<!-- scroll icon start -->
+	<div id="scrollIcon">
+	  <i class="bi bi-arrow-up-short"></i>
+	</div>
+	<!-- scroll icon end -->
+	<!-- footert start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="f_left">
+						<p class="c_description">&copy; Taxi – All rights reserved</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="f_right text-end">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Terms and Conditions</a></li>
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+							<li class="list-inline-item"><a class="text-decoration-none" href="#">Disclaimer</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footert end -->
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- owlcarousel -->
+	<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+	<!-- custom slider code -->
+	<script src="js/custom-slider.js"></script>
+	<!-- custom row javascript code -->
+	<script src="js/script.js"></script>
+</body>
+</html>
