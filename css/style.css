@@ -1,16 +1,6 @@
 :root{
 	--FiraSans: "Fira Sans Condensed", sans-serif;
 	--OpenSans: "Open Sans", sans-serif;
-	--65: 65px;
-	--58: 58px;
-	--50: 50px;
-	--47: 47px;
-	--40: 40px;
-	--30: 30px;
-	--28: 28px;
-	--26: 26px;
-	--20: 20px;
-	--18: 18px;
 	--16: 16px;
 	/*color*/
 	--yellow: #fed100;
@@ -58,6 +48,8 @@ button:focus-visible,
     --bs-form-select-bg-icon: none !important;
 }
 input{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
 	border-radius: 5px !important;
 }
 .form-control,
@@ -288,8 +280,9 @@ header{
 	font-size: 75px;
 }
 .hc_bottom {
-    background-color: #0e0e0eb3;
-    padding: 10px 50px 30px;
+  background-color: #0e0e0eb3;
+  padding: 10px 50px 30px;
+  border-radius: 5px;
 }
 .booking_form{}
 .booking_form label{
@@ -318,7 +311,7 @@ header{
 
 .custom-select-selected {
   border: 1px solid #ccc;
-  padding: 7px 40px 7px 15px;
+  padding: 10px 40px 10px 15px;
   position: relative;
   background-color: white;
   color: #333;
@@ -586,7 +579,6 @@ header{
   border: 0;
 }
 .driver_img{
-	max-width: 320px;
 	max-height: 213px;
 	overflow: hidden;
 }
@@ -711,7 +703,11 @@ header{
 /*app download css start*/
 .app_section{}
 
-.download_link{}
+.download_link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .download_link a{
 	margin-top: 30px;
 	margin-right: 40px;
@@ -756,7 +752,7 @@ header{
 }
 .app_img {
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 320px;
   animation: app 5s infinite;
 }
 
@@ -846,8 +842,8 @@ header{
 	margin-top: 40px;
 }
 #accordionFaq .accordion-button:not(.collapsed) {
-    color: var(--bs-accordion-active-color);
-    background-color: var(--yellow);
+  color: var(--bs-accordion-active-color);
+  background-color: var(--yellow);
 }
 /*faq css end*/
 /*contact form css start*/
@@ -861,9 +857,13 @@ header{
 /*contact form css end*/
 /*footer css start*/
 .footer_section{
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.footer_logo{}
+.footer_logo,
+.footer_title{
+	margin-top: 40px;
+}
 .f_logo_img{
 	margin-bottom: 40px;
 	width: 150px;
@@ -932,6 +932,10 @@ header{
 .official_link ul li{
 	margin-bottom: 15px;
 }
+.quick_link ul li:last-child,
+.official_link ul li:last-child{
+	margin-bottom: 0;
+}
 .quick_link ul li a,
 .official_link ul li a,
 .f_contact_info span{
@@ -947,7 +951,9 @@ header{
 .f_contact_info span{
 	font-family: var(--FiraSans);
 }
-.footer_social{}
+.footer_social{
+	margin-top: 20px;
+}
 .footer_social a{
 	margin-right: 20px;
 }
