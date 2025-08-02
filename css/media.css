@@ -10,7 +10,7 @@
 	}
 	/*common css end*/
 	.header_section {
-	    height: 980px;
+	    height: 1020px;
 	}
 		.header_section {
 	    padding-top: 60px;
@@ -66,6 +66,11 @@
 		display: none;
 	}
 	/*testmonial css end*/
+	/*app css start*/
+	.download_link {
+	  margin-bottom: 40px;
+	}
+	/*app css end*/
 	/*blog css start*/
 	.blog_body {
 	    padding: 20px 10px;
@@ -74,6 +79,20 @@
 		font-size: 14px;
 	}
 	/*blog css end*/
+	/*footer css start*/
+	.footer_logo,
+	.footer_title{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.f_left{
+		margin-bottom: 10px;
+	}
+	.f_left,
+	.f_right{
+		text-align: center !important;
+	}
+	/*footer css end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -151,6 +170,25 @@
 	    padding: 50px 20px 20px;
 	}
 	/*testmonial css end*/
+	/*app css start*/
+	.download_link {
+	  margin-bottom: 40px;
+	}
+	/*app css end*/
+	/*footer css start*/
+	.footer_logo,
+	.footer_title{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.f_left{
+		margin-bottom: 10px;
+	}
+	.f_left,
+	.f_right{
+		text-align: center !important;
+	}
+	/*footer css end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -173,6 +211,7 @@
 		width: 100%;
 		top: 0;
 	    background: var(--white);
+	    box-shadow: 0px 0px 13px 0px #464646ab !important;
 	}
 	#header_menu ul li a {
 	    color: var(--black);
@@ -234,6 +273,11 @@
 		font-size: 13px;
 	}
 	/*blog css end*/
+	/*app css start*/
+	.app_img {
+	  max-width: 300px;
+	}
+	/*app css end*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
